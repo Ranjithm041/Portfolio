@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3Alt, FaDocker, FaGitAlt } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiJenkins, SiKubernetes, SiAmazonaws } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3Alt, FaGithub, FaGitAlt } from 'react-icons/fa';
+import { SiTypescript, SiMongodb, SiJenkins, SiPowerbi,SiMicrosoftazure,SiPostgresql,SiGitlab } from 'react-icons/si';
 
 const Skills = () => {
   const [ref, inView] = useInView({
@@ -17,11 +17,13 @@ const Skills = () => {
     { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
     { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
     { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
-    { name: 'Docker', icon: FaDocker, color: '#2496ED' },
     { name: 'Git', icon: FaGitAlt, color: '#F05032' },
     { name: 'Jenkins', icon: SiJenkins, color: '#D24939' },
-    { name: 'Kubernetes', icon: SiKubernetes, color: '#326CE5' },
-    { name: 'AWS', icon: SiAmazonaws, color: '#FF9900' },
+    { name: 'Power BI', icon: SiPowerbi, color: '#F2C811' }, // Power BI
+    { name: 'Azure', icon: SiMicrosoftazure, color: '#0087FF' }, // Azure
+    { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' }, // PostgreSQL
+    { name: 'GitHub', icon: FaGithub, color: '#181717' }, // GitHub
+    { name: 'CI/CD Pipeline', icon: SiGitlab, color: '#FC6D26' },
   ];
 
   const containerVariants = {

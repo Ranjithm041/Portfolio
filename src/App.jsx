@@ -7,6 +7,7 @@ import Projects from './components/Projects.jsx';
 import Skills from './components/Skills.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import Internship from './components/Internship.jsx';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -66,6 +67,7 @@ function App() {
             <Hero />
             <About />
             <Skills />
+            <Internship />
             <Projects />
             <Contact />
           </main>

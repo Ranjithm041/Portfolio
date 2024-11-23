@@ -8,7 +8,7 @@ const Contact = () => {
   });
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 bg-tertiary">
       <div className="container mx-auto px-4">
         <motion.div
           ref={ref}
@@ -27,14 +27,14 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full px-4 py-3 bg-tertiary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
+                  className="w-full px-4 py-3 bg-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
                 />
               </div>
               <div>
                 <input
                   type="email"
                   placeholder="Email"
-                  className="w-full px-4 py-3 bg-tertiary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
+                  className="w-full px-4 py-3 bg-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
                 />
               </div>
             </div>
@@ -42,14 +42,14 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Subject"
-                className="w-full px-4 py-3 bg-tertiary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
+                className="w-full px-4 py-3 bg-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
               />
             </div>
             <div>
               <textarea
                 placeholder="Message"
                 rows="6"
-                className="w-full px-4 py-3 bg-tertiary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
+                className="w-full px-4 py-3 bg-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary"
               ></textarea>
             </div>
             <motion.button

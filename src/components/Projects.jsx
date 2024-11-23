@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import perfido from '../assets/perfido.png';
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -10,12 +11,12 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Perfido - E-Commerce Platform',
-      description: 'A full-stack e-commerce platform built during my internship at icanio technologies. Implemented responsive design and user authentication using React.',
-      image: 'https://via.placeholder.com/600x400',
+      title: 'Perfido - an AI integrated tool platform',
+      description: 'A full-stack ai integrated tool platform built during my internship at icanio technologies. Implemented responsive design and user authentication using React.',
+      image: perfido,
       tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-      github: '#',
-      live: '#',
+      github: 'https://github.com/Ranjithm041/Perfido.git',
+      live: 'https://ranjithm041.github.io/Perfido/',
     },
     {
       title: 'Task Management System',
@@ -60,7 +61,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-tertiary">
+    <section id="projects" className="py-20 bg-primary">
       <div className="container mx-auto px-4">
         <motion.div
           ref={ref}
@@ -76,7 +77,7 @@ const Projects = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-primary rounded-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300"
+                className="bg-tertiary rounded-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300"
               >
                 <img
                   src={project.image}

@@ -21,14 +21,11 @@ const About = () => {
         {/* Text Section */}
         <div>
           <p className="text-textSecondary mb-4">
-            Hello! I'm Ranjith M, a passionate full stack developer. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-          </p>
+          Hello! I’m Ranjith M, a passionate and dedicated Full-Stack Developer with a keen eye for creating dynamic and responsive web applications. My journey in software development began with a fascination for building solutions that make life simpler, and it has grown into a career focused on delivering impactful user experiences.          </p>
           <p className="text-textSecondary mb-4">
-            Currently, I'm interning at icanio technologies in Tirunelveli, where I've had the opportunity to work on exciting projects like Perfido, an e-commerce platform built entirely with React.
-          </p>
+          I specialize in front-end frameworks like React and have solid expertise in back-end technologies such as Node.js and MongoDB. I previously interned at icanio technologies, where I contributed to exciting projects like Perfido, an e-commerce platform, applying modern tools and best practices to create scalable solutions.          </p>
           <p className="text-textSecondary mb-4">
-            My journey in web development has been focused on creating accessible, user-friendly applications that solve real-world problems. I'm particularly interested in front-end development and creating seamless user experiences.
-          </p>
+          Beyond coding, I enjoy diving into the nuances of design systems, improving user interfaces, and exploring DevOps workflows to streamline development processes. My goal is to continuously learn and adapt, crafting applications that are not only functional but also elegant and efficient.          </p>
           <p className="text-textSecondary">
             Here are a few technologies I've been working with recently:
           </p>
@@ -50,6 +47,12 @@ const About = () => {
             </li>
             <li className="flex items-center">
               <span className="text-secondary mr-2">▹</span> DevOps
+            </li>
+            <li className="flex items-center">
+              <span className="text-secondary mr-2">▹</span> PowerBI
+            </li>
+            <li className="flex items-center">
+              <span className="text-secondary mr-2">▹</span> java
             </li>
           </ul>
         </div>

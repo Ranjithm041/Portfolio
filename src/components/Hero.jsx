@@ -24,16 +24,16 @@ const Hero = () => {
 };
   return (
     <section id="home" className="min-h-screen flex items-center py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="max-w-3xl"
         >
-          <h1 className="text-sm text-secondary mb-4">Hi, my name is</h1>
-          <h2 className="text-5xl md:text-7xl font-bold mb-4">Ranjith M</h2>
-          <h3 className="text-3xl md:text-5xl font-bold text-textSecondary mb-6">
+          <h1 className="text-sm text-secondary mb-1">Hi, my name is</h1>
+          <h2 className="text-5xl md:text-7xl font-bold mb-2">Ranjith M</h2>
+          <h3 className="text-3xl md:text-5xl font-bold text-textSecondary mb-2">
             I'm a{' '}
             <TypeAnimation
               sequence={[
@@ -51,7 +51,10 @@ const Hero = () => {
           </h3>
           <p className="text-textSecondary text-lg mb-8 max-w-xl">
             A passionate full-stack developer with experience in building responsive web applications.
-            Currently interning as a Frontend Developer at icanio technologies, focusing on creating intuitive and efficient user interfaces.
+            Expertise in both front-end and back-end technologies.
+           <br /> 
+           <h4 className="text-secondary">Welcome to my portfolio ! </h4>   where you can explore my projects and learn more about my journey in software development
+            
           </p>
           <div className="flex space-x-4">
             <motion.a

@@ -75,7 +75,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              My Portfolio
+              Portfolio
             </Link>
           </motion.div>
 
