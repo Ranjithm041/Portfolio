@@ -31,9 +31,9 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="max-w-3xl"
         >
-          <h1 className="text-sm text-secondary mb-1">Hi, my name is</h1>
-          <h2 className="text-5xl md:text-7xl font-bold mb-2">Ranjith M</h2>
-          <h3 className="text-3xl md:text-5xl font-bold text-textSecondary mb-2">
+          <h1 className="text-sm text-secondary mb-4">Hi, my name is</h1>
+          <h2 className="text-5xl md:text-7xl font-bold mb-4">Ranjith M</h2>
+          <h3 className="text-3xl md:text-5xl font-bold text-textSecondary mb-8">
             I'm a{' '}
             <TypeAnimation
               sequence={[

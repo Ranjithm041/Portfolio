@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import perfido from '../assets/perfido.png';
-
+import zoho from '../assets/zoho.svg';
+import tms from '../assets/tms.png';
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -20,19 +21,19 @@ const Projects = () => {
     },
     {
       title: 'Task Management System',
-      description: 'A collaborative project management tool with real-time updates, task assignment, and progress tracking features.',
-      image: 'https://via.placeholder.com/600x400',
-      tech: ['React', 'Socket.IO', 'Express', 'MongoDB'],
-      github: '#',
-      live: '#',
+      description: 'A Task Management System is a user-friendly web application built with ReactJS that allows users to efficiently organize, track, and manage their tasks. It offers a simple yet powerful interface to help users stay productive and maintain focus on their daily goals.',
+      image: tms,
+      tech: ['React', 'Redux', 'Tailwind', 'localstorage'],
+      github: 'https://github.com/Ranjithm041/Task-Management-System.git',
+      live: 'https://tm-system.netlify.app/',
     },
     {
-      title: 'Portfolio Website',
+      title: 'ZOHO Tasks',
       description: 'A modern, responsive portfolio website built with React and Framer Motion for smooth animations.',
-      image: 'https://via.placeholder.com/600x400',
-      tech: ['React', 'Tailwind CSS', 'Framer Motion'],
-      github: '#',
-      live: '#',
+      image: zoho,
+      tech: ['JAVA', 'OOPS', 'interview process'],
+      github: 'https://github.com/Ranjithm041/Zoho-Project.git',
+      live: 'none',
     },
     {
       title: 'Weather Dashboard',
