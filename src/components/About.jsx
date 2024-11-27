@@ -18,7 +18,16 @@ const About = () => {
     >
       <h2 className="section-title">About Me</h2>
       <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-start">
-        {/* Text Section */}
+       
+        <div className="relative flex justify-center items-center">
+          <div className="group relative">
+            <img
+              src={profile}
+              alt="Profile"
+              className="rounded-lg w-[200px] h-[300px] sm:w-[250px] sm:h-[400px] lg:w-[300px] lg:h-[500px] transition-transform duration-500 group-hover:scale-110 shadow-lg"
+            />
+          </div>
+        </div>
         <div>
           <p className="text-textSecondary mb-4">
           Hello! I’m Ranjith M, a passionate and dedicated Full-Stack Developer with a keen eye for creating dynamic and responsive web applications. My journey in software development began with a fascination for building solutions that make life simpler, and it has grown into a career focused on delivering impactful user experiences.          </p>
@@ -56,17 +65,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-
-        {/* Image Section */}
-        <div className="relative flex justify-center items-center">
-          <div className="group relative">
-            <img
-              src={profile}
-              alt="Profile"
-              className="rounded-lg w-[200px] h-[300px] sm:w-[250px] sm:h-[400px] lg:w-[300px] lg:h-[500px] transition-transform duration-500 group-hover:scale-110 shadow-lg"
-            />
-          </div>
-        </div>
+        
       </div>
     </motion.div>
   </div>
