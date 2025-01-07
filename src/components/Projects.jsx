@@ -44,22 +44,22 @@ const Projects = () => {
       github: 'https://github.com/Ranjithm041/Powerbi-Amazon-Sales-Report.git',
       live: 'https://github.com/Ranjithm041/Powerbi-Amazon-Sales-Report.git',
     },
-    {
-      title: 'Blog Platform',
-      description: 'A full-stack blog platform with user authentication, markdown support, and comment system.',
-      image: 'https://via.placeholder.com/600x400',
-      tech: ['React', 'Node.js', 'MongoDB', 'JWT'],
-      github: '#',
-      live: '#',
-    },
-    {
-      title: 'Chat Application',
-      description: 'Real-time chat application with private messaging and group chat functionality.',
-      image: 'https://via.placeholder.com/600x400',
-      tech: ['React', 'Socket.IO', 'Express', 'MongoDB'],
-      github: '#',
-      live: '#',
-    }
+    // {
+    //   title: 'Blog Platform',
+    //   description: 'A full-stack blog platform with user authentication, markdown support, and comment system.',
+    //   image: 'https://via.placeholder.com/600x400',
+    //   tech: ['React', 'Node.js', 'MongoDB', 'JWT'],
+    //   github: '#',
+    //   live: '#',
+    // },
+    // {
+    //   title: 'Chat Application',
+    //   description: 'Real-time chat application with private messaging and group chat functionality.',
+    //   image: 'https://via.placeholder.com/600x400',
+    //   tech: ['React', 'Socket.IO', 'Express', 'MongoDB'],
+    //   github: '#',
+    //   live: '#',
+    // }
   ];
 
   return (
