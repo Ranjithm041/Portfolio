@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import Resume from '../assets/Ranjith-M_Resume.pdf';
+import Resume from '../assets/Ranjith_M_Resume.pdf';
 
 const Hero = () => {
   const downloadResume = () => {
