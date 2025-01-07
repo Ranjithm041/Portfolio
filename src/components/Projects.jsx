@@ -4,6 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import perfido from '../assets/perfido.png';
 import zoho from '../assets/zoho.svg';
 import tms from '../assets/tms.png';
+import poerbi from '../assets/powerbi.jpg';
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -36,12 +37,12 @@ const Projects = () => {
       live: 'none',
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A weather application that provides real-time weather data and forecasts using OpenWeather API.',
-      image: 'https://via.placeholder.com/600x400',
-      tech: ['React', 'OpenWeather API', 'Chart.js'],
-      github: '#',
-      live: '#',
+      title: 'Power BI - Amazon sales analysis',
+      description: 'This Power BI report provides an in-depth analysis of Amazon sales performance, tracking key metrics such as total sales, revenue trends, and profitability. Interactive visuals allow for easy exploration of data by product, category, or timeframe to uncover insights and optimize decision-making.',
+      image: powerbi,
+      tech: ['PowerBi', 'Amazon Data set', 'cloud'],
+      github: 'https://github.com/Ranjithm041/Powerbi-Amazon-Sales-Report.git',
+      live: 'https://github.com/Ranjithm041/Powerbi-Amazon-Sales-Report.git',
     },
     {
       title: 'Blog Platform',
