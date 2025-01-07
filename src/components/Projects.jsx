@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import perfido from '../assets/perfido.png';
 import zoho from '../assets/zoho.svg';
 import tms from '../assets/tms.png';
-import poerbi from '../assets/powerbi.jpg';
+import powerbi from '../assets/powerbi.jpg';
 const Projects = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
