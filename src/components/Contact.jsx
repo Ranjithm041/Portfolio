@@ -12,13 +12,13 @@ const Contact = () => {
     setStatus('Sending...');
     emailjs
       .sendForm(
-        // 'service_x8vdedu', // Replace with your EmailJS Service ID
-        'service_x7cl53m',
-        // 'template_0w1dt3j', // Replace with your EmailJS Template ID
-        'template_z2z4x5o',
+        'service_x8vdedu', // Replace with your EmailJS Service ID
+        
+        'template_0w1dt3j', // Replace with your EmailJS Template ID
+        
         e.target,
-        // 'Spg4h5bNhBBcQILgi' // Replace with your EmailJS User ID
-        'NTstwSYkZlDkJ4sd6'
+        'Spg4h5bNhBBcQILgi' // Replace with your EmailJS User ID
+       
       )
       .then(
         (result) => {
